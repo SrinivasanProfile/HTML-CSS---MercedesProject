@@ -1,0 +1,517 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    width: 100%;
+}
+
+#firstnav{
+    margin-top: 10px;
+    color: aliceblue;
+    height: 50px;
+}
+.logo{
+    margin-left: 500px;
+    height: 40px;
+    display: inline-block ;
+    position: relative;
+    bottom: 15px;
+}
+#btn1{
+    display: inline-block;
+}
+#secondnav{
+    background-color:rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-left: 270px;
+    text-decoration: none;   
+}
+nav a{
+    color: aliceblue;
+    margin-left: 30px;  
+    text-decoration: none;  
+}
+#Search{
+    margin-top: 10px;
+    margin-left: 600px;
+    display: inline;
+    border: none;
+    border-radius: 4px;
+}
+#lang
+{
+    display: inline;
+    font-family:monospace;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#Deu
+{
+    display: inline;
+    font-family:monospace;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+#Prod
+{
+    display: inline;
+    margin-left: 10px;
+    font-family:monospace;
+}
+#line{
+    display: inline;
+}
+#btn1
+{
+    border: none;
+    margin-left: 20px;
+    border-radius: 2px;
+    font-style:unset;
+}
+.logo
+{
+    display: inline;
+    bottom: 25px;
+}
+a:hover
+{
+      text-transform: uppercase;
+}
+.content{
+    position: relative;
+}
+.content2{
+    position: relative;
+}
+#txt{
+    position: absolute;
+    bottom: 315px;
+    color: aliceblue;
+    left: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+#txt2{
+    position: absolute;
+    bottom: 295px;
+    color: aliceblue;
+    left: 30px;
+    text-decoration: underline;
+}
+#img2{
+    height:100%;
+    width: 100%;
+}
+#img3{
+    color: rgb(20, 1, 1);
+    height:100%;
+    width: 100%;
+    position: relative;
+    bottom: 4px;
+    background-image: linear-gradient(rgba(255, 0, 0,0.4) rgba(255, 255, 0,0.4) rgba(0, 128, 0,0.4));
+}
+#txt4{
+    position: absolute;
+    bottom: 260px;
+    color: aliceblue;
+    left: 50px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+#btn3{
+    position: relative;
+    bottom: 210px;
+    left: 50px;
+    border-radius: 8px;
+    border: none;
+    height: 20px;
+    font-style:initial;
+}
+#foot1
+{
+    position: relative;
+    bottom: 80px;
+    color: rgb(243, 247, 250);
+    left: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+.content3{
+    background-color: aliceblue;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    bottom: 105px;
+}
+#img4
+{
+    margin-top: 130px;
+    height: 480px;
+    width: 80%;
+    margin-left: 121px;
+    transition: 2s;
+}
+#img4:hover
+{
+    transform: scale(1.07);
+    border-radius: 20px;
+}
+#img-c
+{
+    position: relative;
+    top: 162px;
+    left: 200px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: medium;
+}
+#txt5
+{
+    position: relative;
+    top: 138px;
+    left: 200px;
+    font-style:italic;
+    font-weight: 100;
+    font-size: large;
+}
+.content4
+{
+   background-color: aliceblue;
+   position: relative;
+   bottom: 129px;
+   height: 1500px;
+   width: 100%;
+}
+#img5
+{
+    height: 470px;
+    position: relative;
+    left: 120px;
+    top: 100px;
+    transition: 2s;
+}
+#txt6{
+    position: relative;
+    left: 118px;
+    top: 100px;
+    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;
+}
+#img5:hover
+{
+    transform: scale(1.04);
+    border-radius: 7px;
+}
+#txt7{
+    position: relative;
+    left: 560px;
+    bottom: 210px;
+    font-size: medium;
+    font-weight: 200;
+}
+#img6
+{
+    height: 200px;
+    width: 37%;
+    position: relative;
+    left: 560px;
+    bottom: 180px;
+    transition: 2s;
+}
+#img6:hover
+{
+    transform: scale(1.1);
+    border-radius: 7px;
+}
+#img7
+{
+    height: 250px;
+    width: 360px;
+    position: relative;
+    left: 118px;
+    bottom: 127px;
+    transition: 2s;
+}
+#img7:hover
+{
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+#txt8{
+    position: relative;
+    bottom: 127px;
+    left: 118px;
+    font-size: medium;
+    font-weight: 200;
+}
+#img8
+{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    bottom: 440px;
+    left: 590px;
+    transition: 2s;
+}
+#txt9{
+    position: relative;
+    bottom: 430px;
+    left: 589px;
+    font-size: medium;
+    font-weight: 200;
+}
+#img8:hover
+{
+    transform: scale(1.04);
+    border-radius: 5px;
+}
+.content5
+{
+    height: 520px;
+    width: 100%;
+}
+#img9
+{
+    height: 500px;
+    width: 350px;
+    position: relative;
+    left: 500px;
+    bottom: 320px;
+}
+#txt10
+{
+    position: relative;
+    color: aliceblue;
+    left: 100px;
+    bottom: 60px;
+    font-style: oblique;
+}
+#txt11
+{
+    color: aliceblue;
+    position: relative;
+    top: 140px;
+    left: 100px;
+    font-size: medium;
+    font-weight: 100;
+}
+#btn4{
+    position: relative;
+    bottom: 330px;
+    left: 100px;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 130px;
+    height: 30px;
+}
+#follow{
+    height: 290px;
+    width: 100%;
+    color: rgb(0, 5, 8);
+    background-color: aliceblue;
+}
+#txt12
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    position: relative;
+    left: 380px;
+     top: 100px;
+}
+#Web-logo
+{
+    position: relative;
+     margin-top: 118px;
+    height: 20px;
+    width: 100%;
+}
+#insta{
+    height: 40px;
+    position: relative;
+    left: 280px;
+    top: 14px;
+}
+#face
+{
+    height: 40px;
+    position: relative;
+    left: 280px;
+    top: 10px;
+    margin-left: 54px;
+}
+#twit
+{
+    height: 40px;
+    position: relative;
+    left: 280px;
+    top: 10px;
+    margin-left: 54px; 
+}
+#in
+{
+    height: 40px;
+    position: relative;
+    left: 280px;
+    top: 10px;
+    margin-left: 54px; 
+}
+#utube
+{
+    height: 40px;
+    position: relative;
+    left: 280px;
+    top: 10px;
+    margin-left: 54px; 
+}
+#tele
+{
+    height: 40px;
+    position: relative;
+    left: 280px;
+    top: 10px;
+    margin-left: 54px; 
+}
+.details_Vehicles
+{
+    height: 500px;
+    width: 100%;
+    color: aliceblue;
+    display:inline-block;
+    margin-top: 180px;
+    margin-left: 80px;
+    font-weight: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+.Purchase
+{
+    color: aliceblue;
+    position: relative;
+    bottom: 500px;
+    left: 300px;
+    font-size: small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#line1
+{
+    width: 85%;
+    bottom: 360px;
+    position: relative;
+}
+.Rules
+{
+    color: white;
+    position: relative;
+    bottom: 310px;
+    display: inline;
+    left: 120px;
+}
+
+#one
+{
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+    margin-left: 2px;
+}
+#two
+{
+    position: relative;
+    left: 650px;
+    bottom: 80px;
+    margin-left: 2px;
+}
+#socket
+{
+    height: 30px;
+    width: 30px;
+    bottom: 435px;
+    left: 80px;
+    position: relative;
+}
+#fuel
+{
+    height: 30px;
+    width: 30px;
+    bottom: 435px;
+    left: 350px;
+    position: relative; 
+}
+#Co2
+{
+    height: 30px;
+    width: 30px; 
+    bottom: 435px;
+    left: 666px;
+    position: relative; 
+}
+.summary
+{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    bottom: 400px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#line2
+{
+    width: 85%;
+    bottom: 360px;
+    position: relative;
+}
+.final_list
+{
+    color: aliceblue;
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+    margin-left: 30px;
+}
+div a
+{
+    color: aliceblue;
+    text-decoration: none;  
+    position: relative;
+    right: 58px;
+    margin: 10px;
+}
+.final_lang
+{
+    color: white;
+    position: relative;
+    left: 880px;
+    bottom: 320px;
+    font-size: large;
+}
+#logo_benz
+{
+    position: relative;
+    bottom: 240px;
+    left: 419px;
+    height: 100px;
+    width: 200px;
+}
+#Top
+{
+    color: white;
+    position: relative;
+    left: 510px;
+    bottom: 230px;
+}
+#sec
+{
+    height: 100px;
+    width: 100%;
+}
+#symbol
+{
+   position: relative;
+   right: 7px;
+   bottom: 60px;
+}
+
+
